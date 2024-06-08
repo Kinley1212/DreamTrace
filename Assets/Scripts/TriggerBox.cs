@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TriggerBox : MonoBehaviour
 {
-    public string sceneName;
+    public string stageName;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +19,12 @@ public class TriggerBox : MonoBehaviour
 
     void OnMouseDown()
     {
-        Debug.Log("ThisClicked:" + sceneName);
-        Player.Instance.TextPanel.SetActive(true);
+        Debug.Log("ThisClicked:" + stageName);
 
+        //SceneManager.LoadScene(sceneName);
+        //SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+
+        GameManager.instance.Load(stageName);
 
         Destroy(gameObject);    
     }
