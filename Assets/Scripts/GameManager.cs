@@ -12,22 +12,36 @@ public struct stage
     public string name;
     public int num;
 }
+
+[Serializable]
+public struct Page
+{
+    public Sprite[] spr;
+}
+
 public class GameManager : MonoBehaviour
 {
 
-    public static GameManager instance; 
-    [SerializeField] stage[] stages;
+    public static GameManager instance;
 
+
+
+
+
+    [SerializeField] stage[] stages;
+    [SerializeField] Page[] dairy;
+    public int index;
+    public int contentIndex;
 
     private void Awake()
     {
         if (instance == null) instance = this;
         else Destroy(gameObject); 
     }
-    // Start is called before the first frame update
+    // Start is called before the first frame udddddddddddddddddddddddddddpdate
     void Start()
     {
-
+     
     }
 
     // Update is called once per frame
@@ -35,6 +49,15 @@ public class GameManager : MonoBehaviour
     {
 
     }
+    public void GetDairy(int dairyPage, int dairyContentIndex)
+    {
+        index = dairyPage;
+        contentIndex = dairyContentIndex;
+
+        UIManager.instance.dairyImg.sprite = dairy[index].spr[contentIndex];
+    }
+
+
 
     public void Load(string stageName)
     {
@@ -51,5 +74,11 @@ public class GameManager : MonoBehaviour
                 stage.stageObj.SetActive(false);
             }
         }
+    }
+
+
+    public void UnlockDiary()
+    { 
+         UIManager.instance.dairyBtn.SetActive(true);
     }
 }

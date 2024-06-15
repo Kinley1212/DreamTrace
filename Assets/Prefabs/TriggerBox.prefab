@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2131558764380680325}
   - component: {fileID: 4021977844436987915}
   m_Layer: 0
-  m_Name: TriggerBox (1)
+  m_Name: TriggerBox
   m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
