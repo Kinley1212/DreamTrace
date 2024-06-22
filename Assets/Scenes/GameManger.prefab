@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6487089537359353402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4591555254865426414}
+  - component: {fileID: 3500022184222562127}
+  m_Layer: 0
+  m_Name: GameManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4591555254865426414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6487089537359353402}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.12101556, y: 0.23933837, z: -0.049846016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3500022184222562127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6487089537359353402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5f44a4274379843bf474fa45003e9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stages:
+  - stageObj: {fileID: 0}
+    name: stage1
+    num: 0
+  - stageObj: {fileID: 0}
+    name: stage2
+    num: 0
+  - stageObj: {fileID: 0}
+    name: stage3
+    num: 0
+  - stageObj: {fileID: 0}
+    name: stage4
+    num: 0
+  - stageObj: {fileID: 0}
+    name: stage5
+    num: 0
+  - stageObj: {fileID: 0}
+    name: stage6
+    num: 0
+  dairy:
+  - spr:
+    - {fileID: 21300000, guid: 54c21a46e24342b47acab5664be66816, type: 3}
+    - {fileID: 21300000, guid: 394d48ea88eb29241b25042ba87186a6, type: 3}
+    - {fileID: 21300000, guid: 6c488568cc6c8c147b3c17661f2ba5ab, type: 3}
+    - {fileID: 21300000, guid: 0574ed34cfa6c434eaf05ecf40634d56, type: 3}
+  - spr: []
+  index: 1
+  contentIndex: 0

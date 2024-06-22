@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
 
@@ -13,11 +14,10 @@ public class UIManager : MonoBehaviour
     public Image dairyImg;
     private void Awake()
     {
+        DontDestroyOnLoad(gameObject);  
         if (instance == null) instance = this;
         else Destroy(gameObject);
     }
-
-
 
 
     public void OpenDairy()
@@ -30,5 +30,28 @@ public class UIManager : MonoBehaviour
     {
         dairyOpenPanel.SetActive(false);
         dairyBtn.SetActive(true);
+    }
+
+
+    public int passwordPressed = 0;
+
+
+    public DairyButton[] dairyButtons;
+    public void CheckNum()
+    {
+        bool isAllPressed = true;
+        foreach (DairyButton btn in dairyButtons)
+        {
+            if (!btn.isPressed) isAllPressed = false;
+        }
+        if (isAllPressed) OpenDairy();
+    }
+
+    public void WrongNumPressed()
+    {
+        foreach (DairyButton btn in dairyButtons)
+        {
+            if (btn.isPressed) btn.isPressed = false;
+        }
     }
 }

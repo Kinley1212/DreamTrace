@@ -13,6 +13,17 @@ public class TriggerBox : MonoBehaviour
     public UnityEvent OnTrigger;
 
     [SerializeField] GameObject[] showObj;
+
+    [Header("开启首次特殊对话")]
+    public bool isOnce = false;
+    public DialogueBase dialogue_1st;
+    [Header("开启重复对话")]
+    public bool isRepeat = false;
+    public DialogueBase dialogue_Repeat;
+
+    [Header("开启加载下一个场景")]
+    public string sceneName;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +42,8 @@ public class TriggerBox : MonoBehaviour
         //SceneManager.LoadScene(sceneName);
         //SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
         if (stageName != "") GameManager.instance.Load(stageName);
+        else if(sceneName != "") SceneManager.LoadScene(sceneName);
+
         if (isOneTimeTrigger) Destroy(gameObject);
 
         OnTrigger.Invoke();
@@ -46,11 +59,19 @@ public class TriggerBox : MonoBehaviour
 
             }
         }
+
+        if (isOnce) {
+
+            if(dialogue_1st) DialogueManager.instance.EnqueueDialogue(dialogue_1st);
+
+            isOnce = false;
+        }else if (isRepeat)
+        {
+            if (dialogue_Repeat) DialogueManager.instance.EnqueueDialogue(dialogue_Repeat);
+        }
+
+
     }
 
-    void ClickThis()
-    {
-
-
-    }
+    
 }

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9852a0c4f970fc744913d9ba24f694b9, type: 3}
+  m_Name: TestOptions
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: c98441bd8d5dbe640a72374077efdaa4, type: 2}
+    myText: 11
+  - character: {fileID: 11400000, guid: 7f2005d3cbad8f246aa5d2ff0a114406, type: 2}
+    myText: 22
+  - character: {fileID: 11400000, guid: c98441bd8d5dbe640a72374077efdaa4, type: 2}
+    myText: 333
+  - character: {fileID: 11400000, guid: 7f2005d3cbad8f246aa5d2ff0a114406, type: 2}
+    myText: 44
+  questionText: How good are you?
+  optionsInfo:
+  - buttonName: good
+    nextDialoge: {fileID: 11400000, guid: ab91d7757e932bc4598daed6130ea909, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: cc6c32c61e947c84d847ce98f8389aee, type: 2}
+          m_TargetAssemblyTypeName: EventBehavior, Assembly-CSharp
+          m_MethodName: TestEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - buttonName: bad
+    nextDialoge: {fileID: 11400000, guid: f2c2cb3afe8e8ce4088c35542ddff18c, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 4619702984858785633, guid: e991baabbef4b8642ab53e9daf3de02e, type: 3}
+          m_TargetAssemblyTypeName: test, Assembly-CSharp
+          m_MethodName: Test
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

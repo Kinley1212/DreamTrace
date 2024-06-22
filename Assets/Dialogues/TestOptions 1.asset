@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9852a0c4f970fc744913d9ba24f694b9, type: 3}
+  m_Name: TestOptions 1
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 7f2005d3cbad8f246aa5d2ff0a114406, type: 2}
+    myText: ......
+    characterEmotion: 0
+    portraitSlotIndex: 1
+  - character: {fileID: 11400000, guid: c98441bd8d5dbe640a72374077efdaa4, type: 2}
+    myText: "\u65E9\u5B89~\uFF01"
+    characterEmotion: 4
+    portraitSlotIndex: 4
+  - character: {fileID: 11400000, guid: 7f2005d3cbad8f246aa5d2ff0a114406, type: 2}
+    myText: "\u65E9\u5B89~\uFF01"
+    characterEmotion: 3
+    portraitSlotIndex: 1
+  - character: {fileID: 11400000, guid: c98441bd8d5dbe640a72374077efdaa4, type: 2}
+    myText: "\u65B0\u5B66\u671F\u8BF7\u591A\u6307\u6559"
+    characterEmotion: 0
+    portraitSlotIndex: 4
+  - character: {fileID: 11400000, guid: 7f2005d3cbad8f246aa5d2ff0a114406, type: 2}
+    myText: "\u53C8\u5927\u4E86\u4E00\u5C81\u5462"
+    characterEmotion: 0
+    portraitSlotIndex: 1
+  questionText: "\u4F60\u4ECA\u5E74\u591A\u5927\u4E86"
+  optionsInfo:
+  - buttonName: "16\u5C81"
+    nextDialoge: {fileID: 11400000, guid: 901966f7f082e7344a04b356af2c6013, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: cc6c32c61e947c84d847ce98f8389aee, type: 2}
+          m_TargetAssemblyTypeName: EventBehavior, Assembly-CSharp
+          m_MethodName: TestEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - buttonName: "17\u5C81"
+    nextDialoge: {fileID: 11400000, guid: ab91d7757e932bc4598daed6130ea909, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []

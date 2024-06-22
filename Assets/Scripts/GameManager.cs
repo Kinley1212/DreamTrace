@@ -24,10 +24,6 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
-
-
-
-
     [SerializeField] stage[] stages;
     [SerializeField] Page[] dairy;
     public int index;
@@ -35,8 +31,13 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        DontDestroyOnLoad(gameObject);
         if (instance == null) instance = this;
-        else Destroy(gameObject); 
+        else
+        {
+            Destroy(gameObject);
+        }
+        
     }
     // Start is called before the first frame udddddddddddddddddddddddddddpdate
     void Start()
@@ -49,6 +50,9 @@ public class GameManager : MonoBehaviour
     {
 
     }
+
+
+
     public void GetDairy(int dairyPage, int dairyContentIndex)
     {
         index = dairyPage;
@@ -76,6 +80,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void LoadNewStage(stage[] newStages)
+    {
+        stages = newStages;
+    }
 
     public void UnlockDiary()
     { 
