@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c885fdf035fdf3043a5c8c07eddff22b, type: 3}
+  m_Name: "2023\u5367\u5BA4\u95E8"
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
+    myText: "\u54CE\uFF0C\u8FD8\u6CA1\u6709\u627E\u5230\u5DE5\u4F5C\uFF0C\u600E\u4E48\u529E..."
+    characterEmotion: 0
+    portraitSlotIndex: 0
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
+    myText: "\u75AB\u60C5\u4EC0\u4E48\u65F6\u5019\u624D\u80FD\u7ED3\u675F\uFF0C\u597D\u60F3\u51FA\u53BB\u3002"
+    characterEmotion: 0
+    portraitSlotIndex: 0

@@ -98,7 +98,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3019012f7d06d84cb24033ffeca8a00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: TestScene-Level2
+  stageName: 
+  isOneTimeTrigger: 0
+  OnTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+  showObj: []
+  isOnce: 0
+  dialogue_1st: {fileID: 0}
+  isRepeat: 0
+  dialogue_Repeat: {fileID: 0}
+  sceneName: 
 --- !u!61 &8351033661383133907
 BoxCollider2D:
   m_ObjectHideFlags: 0

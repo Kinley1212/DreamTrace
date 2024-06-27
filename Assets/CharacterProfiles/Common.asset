@@ -18,10 +18,10 @@ MonoBehaviour:
   myFontColor: {r: 1, g: 1, b: 1, a: 1}
   myAvatorBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
   myEmotionPortrait:
-    standard: {fileID: 0}
-    happy: {fileID: 0}
-    angry: {fileID: 0}
-    shock: {fileID: 0}
-    sad: {fileID: 0}
-    hurt: {fileID: 0}
+    standard: {fileID: 21300000, guid: 8204f80295c6b024796b5cdf012f639e, type: 3}
+    happy: {fileID: 21300000, guid: 360e6085f5a2b4142ac4037a284a9d4d, type: 3}
+    angry: {fileID: 21300000, guid: d74ea3471bb34b948819a2a8edb76949, type: 3}
+    shock: {fileID: 21300000, guid: ddd92f27ffb30cf42bd0c088f5087a26, type: 3}
+    sad: {fileID: 21300000, guid: ca05f655f2504d14faf3ee5709a49875, type: 3}
+    hurt: {fileID: 21300000, guid: a6f9a0e5d9a887f459bc111baf70466f, type: 3}
   Emotion: 0

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c885fdf035fdf3043a5c8c07eddff22b, type: 3}
+  m_Name: "\u9493\u9C7C\u8001\u677F 1"
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 0}
+    myText: "\u9001\u4F60\u4E00\u5F20\u9E2D\u5B50\u8239\u7684\u7968\uFF0C\u53BB\u73A9\u5427\u3002"
+    characterEmotion: 0
+    portraitSlotIndex: 0
