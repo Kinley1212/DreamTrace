@@ -38,11 +38,6 @@ MonoBehaviour:
     characterEmotion: 0
     portraitSlotIndex: 0
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
-    myText: "\u6211\u4EEC\u628A\u8FD9\u9053\u9898\u8BB2\u5B8C\u518D\u4E0B\u8BFE\u3002\n......
-      ......"
-    characterEmotion: 0
-    portraitSlotIndex: 0
-  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
-    myText: "\u597D\uFF0C\u4E0B\u8BFE\u5427\uFF01"
+    myText: "\u4E0B\u8BFE\uFF01"
     characterEmotion: 0
     portraitSlotIndex: 0
