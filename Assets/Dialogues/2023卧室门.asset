@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueInfo:
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
-    myText: "\u54CE\uFF0C\u8FD8\u6CA1\u6709\u627E\u5230\u5DE5\u4F5C\uFF0C\u600E\u4E48\u529E..."
+    myText: "\u54CE\uFF0C\u75AB\u60C5\u4EC0\u4E48\u65F6\u5019\u624D\u80FD\u7ED3\u675F\u3002"
     characterEmotion: 0
     portraitSlotIndex: 0
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
-    myText: "\u75AB\u60C5\u4EC0\u4E48\u65F6\u5019\u624D\u80FD\u7ED3\u675F\uFF0C\u597D\u60F3\u51FA\u53BB\u3002"
+    myText: "\u75AB\u60C5\u627E\u4E0D\u5230\u5DE5\u4F5C\uFF0C\u4E5F\u4E0D\u80FD\u51FA\u53BB\u73A9..."
     characterEmotion: 0
     portraitSlotIndex: 0

@@ -34,7 +34,7 @@ MonoBehaviour:
     characterEmotion: 0
     portraitSlotIndex: 0
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
-    myText: "\u94C3\u94C3\u94C3......(\u4E0B\u8BFE\u94C3\u58F0)"
+    myText: "\u94C3\u94C3\u94C3......"
     characterEmotion: 0
     portraitSlotIndex: 0
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}

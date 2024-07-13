@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9852a0c4f970fc744913d9ba24f694b9, type: 3}
+  m_Name: QQ option
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: f6738ebfc233dd84da3fd7ee2ab5ce05, type: 2}
+    myText: "\u4E3B\u4EBA\u4F60\u597D\u4E45\u6CA1\u6709\u6765\u627E\u6211\u73A9\u4E86..."
+    characterEmotion: 0
+    portraitSlotIndex: 0
+  - character: {fileID: 11400000, guid: f6738ebfc233dd84da3fd7ee2ab5ce05, type: 2}
+    myText: "\u751F\u75C5\u4E86\u53EF\u771F\u96BE\u53D7\u54CD\uFF0C\u5FEB\u8BA9\u533B\u751F\u7ED9\u6211\u5F00\u5904\u65B9\u5427\uFF01"
+    characterEmotion: 0
+    portraitSlotIndex: 0
+  questionText: "\u5F00\u5904\u65B9\u9700\u8981\u652F\u4ED850\u5143\u4E3B\u54E6\uFF0C\u8BF7\u5148\u9009\u62E9\u652F\u4ED8\u65B9\u5F0F\u5427\uFF1A"
+  optionsInfo:
+  - buttonName: "\u5143\u5B9D\u652F\u4ED8"
+    nextDialoge: {fileID: 0}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: "Q\u5E01\u652F\u4ED8"
+    nextDialoge: {fileID: 0}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 21300000, guid: 8a7017f6ac19c94498195661316bf638, type: 3}
+          m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

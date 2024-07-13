@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u540C\u5B66A repeat"
   m_EditorClassIdentifier: 
   dialogueInfo: []
-  questionText: "\u966A\u6211\u73A9\u5427\uFF0C\u4F60\u8D62\u4E86\u6211\u628A\u4F60\u5F04\u4E22\u7684\u89E3\u5BC6\u5361\u501F\u7ED9\u4F60\u3002"
+  questionText: "\u966A\u6211\u73A9\u5427\uFF0C\u4F60\u8D62\u4E86\u6211\u628A\u89E3\u5BC6\u5361\u501F\u4F60\u3002"
   optionsInfo:
   - buttonName: "\u597D"
     nextDialoge: {fileID: 0}
@@ -32,7 +32,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - buttonName: "\u8FD8\u662F\u5148\u4E0D\u73A9\u5427"
+  - buttonName: "\u5148\u4E0D\u73A9"
     nextDialoge: {fileID: 0}
     myEvent:
       m_PersistentCalls:

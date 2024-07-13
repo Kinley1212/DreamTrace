@@ -18,7 +18,7 @@ MonoBehaviour:
     characterEmotion: 0
     portraitSlotIndex: 0
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
-    myText: "\u8D70\u4E22\u4E86\uFF1F\uFF01\u6CA1\u4E8B\uFF0C\u522B\u6015\u522B\u6015\uFF0C\u4F60\u5C31\u5728\u8FD9\u7B49\u4ED6\u4EEC\u6765\u627E\u4F60\uFF0C\u522B\u8DD1\u8FDC\u4E86"
+    myText: "\u8D70\u4E22\u4E86\uFF1F\uFF01\u6CA1\u4E8B\uFF0C\u522B\u6015\u522B\u6015\uFF0C\u4F60\u5C31\u5728\u8FD9\u7B49\u4ED6\u4EEC\u6765\u627E\u4F60\uFF0C\u522B\u8DD1\u8FDC\u4E86\u3002"
     characterEmotion: 0
     portraitSlotIndex: 0
   questionText: "\u8981\u4E0D\u8981\u73A9\u4F1A\u513F\u9493\u9C7C\uFF0C\u9493\u5230\u4E94\u6761\u6709\u5956\u52B1\u54E6\u3002"
@@ -28,7 +28,7 @@ MonoBehaviour:
     myEvent:
       m_PersistentCalls:
         m_Calls: []
-  - buttonName: "\u8FD8\u662F\u5148\u4E0D\u73A9\u5427"
+  - buttonName: "\u5148\u4E0D\u73A9"
     nextDialoge: {fileID: 0}
     myEvent:
       m_PersistentCalls:
