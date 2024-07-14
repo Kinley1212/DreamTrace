@@ -12,6 +12,8 @@ public class UIManager : MonoBehaviour
     public GameObject dairyOpenPanel;
     public GameObject dairyBtn;
     public Image dairyImg;
+
+    public string dairyToSceneName;
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);  
@@ -44,7 +46,11 @@ public class UIManager : MonoBehaviour
         {
             if (!btn.isPressed) isAllPressed = false;
         }
-        if (isAllPressed) OpenDairy();
+        if (isAllPressed)
+        {
+            OpenDairy();
+            SceneManager.LoadScene(dairyToSceneName);
+        } 
     }
 
     public void WrongNumPressed()

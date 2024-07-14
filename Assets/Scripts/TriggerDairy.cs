@@ -12,6 +12,7 @@ public class TriggerDairy : TriggerBox
 
     private new void OnMouseDown()
     {
+        if (DialogueManager.instance.inDialogue) return;
         base.OnMouseDown();
         if (isLocked) return;
         GameManager.instance.GetDairy(dairyPage, dairyContentIndex);

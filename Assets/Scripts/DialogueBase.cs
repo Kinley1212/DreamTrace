@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 [CreateAssetMenu (fileName = "New Dialoge", menuName = "Dialogues")]
 public class DialogueBase : ScriptableObject 
 {
@@ -21,11 +21,12 @@ public class DialogueBase : ScriptableObject
             character.Emotion = characterEmotion;
         }
 
+        public string objShowName;
     }
 
     [Header("Insert Dialogue Information Below")]
     public info[] dialogueInfo;
-
+    public string goScene;
 
 
 }

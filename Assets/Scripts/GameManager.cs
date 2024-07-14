@@ -53,12 +53,19 @@ public class GameManager : MonoBehaviour
 
 
 
-    public void GetDairy(int dairyPage, int dairyContentIndex)
+    public bool GetDairy(int dairyPage, int dairyContentIndex)
     {
         index = dairyPage;
         contentIndex = dairyContentIndex;
 
         UIManager.instance.dairyImg.sprite = dairy[index].spr[contentIndex];
+
+
+        UIManager.instance.OpenDairy();
+
+
+        //Check Page
+        return true;
     }
 
 

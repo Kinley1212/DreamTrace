@@ -1734,6 +1734,7 @@ MonoBehaviour:
   dairyOpenPanel: {fileID: 308245405}
   dairyBtn: {fileID: 1807339455}
   dairyImg: {fileID: 424794896}
+  dairyToSceneName: Level2-Park
   passwordPressed: 0
   dairyButtons:
   - {fileID: 39799613}

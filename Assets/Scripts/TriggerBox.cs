@@ -37,6 +37,8 @@ public class TriggerBox : MonoBehaviour
 
     protected void OnMouseDown()
     {
+        if (DialogueManager.instance.inDialogue) return;
+        
         Debug.Log("ThisClicked:" + stageName);
 
         //SceneManager.LoadScene(sceneName);

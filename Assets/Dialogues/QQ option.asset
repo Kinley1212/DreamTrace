@@ -17,10 +17,13 @@ MonoBehaviour:
     myText: "\u4E3B\u4EBA\u4F60\u597D\u4E45\u6CA1\u6709\u6765\u627E\u6211\u73A9\u4E86..."
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: "Q\u5BA0\u5403\u836F"
   - character: {fileID: 11400000, guid: f6738ebfc233dd84da3fd7ee2ab5ce05, type: 2}
     myText: "\u751F\u75C5\u4E86\u53EF\u771F\u96BE\u53D7\u54CD\uFF0C\u5FEB\u8BA9\u533B\u751F\u7ED9\u6211\u5F00\u5904\u65B9\u5427\uFF01"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: "Q\u5BA0\u751F\u75C5"
+  goScene: 
   questionText: "\u5F00\u5904\u65B9\u9700\u8981\u652F\u4ED850\u5143\u4E3B\u54E6\uFF0C\u8BF7\u5148\u9009\u62E9\u652F\u4ED8\u65B9\u5F0F\u5427\uFF1A"
   optionsInfo:
   - buttonName: "\u5143\u5B9D\u652F\u4ED8"

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueName;
     public TextMeshProUGUI dialogueText;
     public Image dialoguerAvatar;
-    public Image dialoguerAvatarBG; 
+    public Image dialoguerAvatarBG;
     public Image[] dialoguerPortraitUI;
 
     [Header("可配置项")]
@@ -38,7 +39,7 @@ public class DialogueManager : MonoBehaviour
 
     //对话选项 
     private bool isDialogueOption;
-    private bool inDialogue;
+    public bool inDialogue;
     public GameObject dialogueOptionUI;
     public GameObject[] optionButtons;
     private int optionAmount;
@@ -47,6 +48,9 @@ public class DialogueManager : MonoBehaviour
     //AutoComplete 点击快速对话跳过typing效果
     private bool isCurrentlyTyping = false;
     private string completeText;
+
+
+    public GameObject[] objList;
 
     private readonly List<char> puncutationCharacters = new List<char>
     {
@@ -64,6 +68,8 @@ public class DialogueManager : MonoBehaviour
         dialogueName.font = nameFont;
     }
 
+
+    public string goScene;
     public void EnqueueDialogue(DialogueBase db)
     {
         if (inDialogue) return;
@@ -73,7 +79,7 @@ public class DialogueManager : MonoBehaviour
         dialogueInfo.Clear();
 
         OptionParser(db);
-
+        goScene = db.goScene;
         foreach (DialogueBase.info info in db.dialogueInfo)
         {
             dialogueInfo.Enqueue(info);
@@ -105,12 +111,12 @@ public class DialogueManager : MonoBehaviour
 
         foreach (Image img in dialoguerPortraitUI)
         {
-            if(img != null)
-            img.gameObject.SetActive(false);
+            if (img != null)
+                img.gameObject.SetActive(false);
         }
 
         if (info.portraitSlotIndex > 0)
-        { 
+        {
             info.ChangeEmotion();
             dialoguerPortraitUI[info.portraitSlotIndex].gameObject.SetActive(true);
             dialoguerPortraitUI[info.portraitSlotIndex].sprite = info.character.MyPortrait;//*My
@@ -124,6 +130,16 @@ public class DialogueManager : MonoBehaviour
         dialogueText.color = info.character.myFontColor;
 
         dialogueText.text = "";
+
+        if (info.objShowName != "" || info.objShowName != null)
+        {
+            foreach (GameObject obj in objList)
+            {
+                if (obj.name == info.objShowName) obj.SetActive(true);
+                else obj.SetActive(false);
+            }
+        }
+
         StartCoroutine(TypeText(info));
 
     }
@@ -132,13 +148,13 @@ public class DialogueManager : MonoBehaviour
     {
         isCurrentlyTyping = true;
         dialogueText.text = "";
-      
+
         foreach (char c in info.myText.ToCharArray())
         {
             yield return new WaitForSeconds(textShowDelay);
             dialogueText.text += c;
-            if(info.character.myVoice != null)
-            AudioManager.instance.PlayClip(info.character.myVoice);
+            if (info.character.myVoice != null)
+                AudioManager.instance.PlayClip(info.character.myVoice);
 
             if (CheckPunctuation(c))
             {
@@ -159,7 +175,8 @@ public class DialogueManager : MonoBehaviour
         {
             return true;
         }
-        else {
+        else
+        {
             return false;
         }
     }
@@ -168,6 +185,11 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueBox.SetActive(false);
         inDialogue = false;
+
+        if (goScene != "")
+        {
+            SceneManager.LoadScene(goScene);
+        }
 
         //开启选项
         if (isDialogueOption != true) return;
