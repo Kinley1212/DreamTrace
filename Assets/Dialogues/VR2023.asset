@@ -17,3 +17,5 @@ MonoBehaviour:
     myText: "\u8FD9\u662F..."
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
+  goScene: Level6-Home2050

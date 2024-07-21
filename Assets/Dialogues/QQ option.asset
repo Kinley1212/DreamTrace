@@ -13,26 +13,38 @@ MonoBehaviour:
   m_Name: QQ option
   m_EditorClassIdentifier: 
   dialogueInfo:
-  - character: {fileID: 11400000, guid: f6738ebfc233dd84da3fd7ee2ab5ce05, type: 2}
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: "\u4E3B\u4EBA\u4F60\u597D\u4E45\u6CA1\u6709\u6765\u627E\u6211\u73A9\u4E86..."
     characterEmotion: 0
     portraitSlotIndex: 0
-    objShowName: "Q\u5BA0\u5403\u836F"
-  - character: {fileID: 11400000, guid: f6738ebfc233dd84da3fd7ee2ab5ce05, type: 2}
-    myText: "\u751F\u75C5\u4E86\u53EF\u771F\u96BE\u53D7\u54CD\uFF0C\u5FEB\u8BA9\u533B\u751F\u7ED9\u6211\u5F00\u5904\u65B9\u5427\uFF01"
+    objShowName: "Q\u5BA0\u751F\u75C5"
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
+    myText: "\u751F\u75C5\u4E86\u53EF\u771F\u96BE\u53D7\u554A\uFF0C\u5FEB\u8BA9\u533B\u751F\u7ED9\u6211\u5F00\u5904\u65B9\u5427\uFF01"
     characterEmotion: 0
     portraitSlotIndex: 0
     objShowName: "Q\u5BA0\u751F\u75C5"
   goScene: 
-  questionText: "\u5F00\u5904\u65B9\u9700\u8981\u652F\u4ED850\u5143\u4E3B\u54E6\uFF0C\u8BF7\u5148\u9009\u62E9\u652F\u4ED8\u65B9\u5F0F\u5427\uFF1A"
+  questionText: "\u5F00\u5904\u65B9\u9700\u8981\u652F\u4ED850\u5143\u5B9D\u54E6\uFF0C\u8BF7\u5148\u9009\u62E9\u652F\u4ED8\u65B9\u5F0F\u5427\uFF1A"
   optionsInfo:
   - buttonName: "\u5143\u5B9D\u652F\u4ED8"
-    nextDialoge: {fileID: 0}
+    nextDialoge: {fileID: 11400000, guid: 5afc7d0640a4ee648b506f23061dc8e2, type: 2}
     myEvent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 21300000, guid: 8a7017f6ac19c94498195661316bf638, type: 3}
+          m_TargetAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - buttonName: "Q\u5E01\u652F\u4ED8"
-    nextDialoge: {fileID: 0}
+    nextDialoge: {fileID: 11400000, guid: 5afc7d0640a4ee648b506f23061dc8e2, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls:

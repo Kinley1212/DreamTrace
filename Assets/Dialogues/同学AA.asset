@@ -17,7 +17,10 @@ MonoBehaviour:
     myText: "\u597D\u5427\u597D\u5427\uFF0C\u7ED9\u4F60\u3002"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: "\u522B\u628A\u6211\u7684\u89E3\u5BC6\u5361\u5F04\u4E22\u4E86\uFF01"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
+  goScene: 

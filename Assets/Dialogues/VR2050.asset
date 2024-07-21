@@ -17,15 +17,41 @@ MonoBehaviour:
     myText: "\u8FDB\u5165\u865A\u62DF\u4E16\u754C\u5C31\u4E0D\u7528\u9762\u5BF9\u73B0\u5B9E\u7684\u75DB\u82E6\u4E86\u3002"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
+  goScene: 
   questionText: "\u4F46\u662F\u8FD9\u6B21\u53EF\u80FD\u6C38\u8FDC\u9192\u4E0D\u6765\u4E86\uFF0C\u8FD8\u8981\u56DE\u5230\u8FC7\u53BB\u5417\uFF1F"
   optionsInfo:
   - buttonName: "\u56DE\u5230\u8FC7\u53BB"
     nextDialoge: {fileID: 0}
     myEvent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 6746501041787652820, guid: bc6b95edf42b63c41908d66599e0d5a7, type: 3}
+          m_TargetAssemblyTypeName: LoadGameManager, Assembly-CSharp
+          m_MethodName: Restart
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - buttonName: "\u63A5\u53D7\u73B0\u5B9E"
     nextDialoge: {fileID: 0}
     myEvent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 6746501041787652820, guid: bc6b95edf42b63c41908d66599e0d5a7, type: 3}
+          m_TargetAssemblyTypeName: LoadGameManager, Assembly-CSharp
+          m_MethodName: Restart
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

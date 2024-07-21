@@ -17,3 +17,5 @@ MonoBehaviour:
     myText: "2008\u5E74\u771F\u597D\u554A..."
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
+  goScene: 

@@ -8,6 +8,14 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
+        DontDestroyOnLoad(gameObject);
+        if (instance == null) instance = this;
+        else
+        {
+            Destroy(gameObject);
+        }
+
+
         if (instance == null) {
             instance = this;
         }
@@ -22,4 +30,5 @@ public class AudioManager : MonoBehaviour
     {
         audioSource.PlayOneShot(clip);
     }
+
 }

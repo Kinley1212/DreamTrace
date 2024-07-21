@@ -17,27 +17,35 @@ MonoBehaviour:
     myText: "\u8FD9\u6B21\u8BED\u6587\u5355\u5143\u8003\u8BD5\u5168\u73ED\u8003\u5F97\u90FD\u5F88\u4E0D\u9519\uFF0C\u5E73\u5747\u5206\u5E74\u7EA7\u7B2C\u4E00\u3002"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: "\u8981\u7279\u522B\u8868\u626C95\u5206\u4EE5\u4E0A\u7684\u540C\u5B66\uFF0C\u8FD9\u4E9B\u540C\u5B66\u53EF\u4EE5\u5F97\u5230\u5C0F\u7EA2\u82B1\u5956\u52B1\uFF01"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: "\u5927\u5BB6\u638C\u58F0\u9F13\u52B1\uFF01"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: "\u597D\uFF0C\u63A5\u4E0B\u6765\u6211\u4EEC\u8BB2\u4E00\u4E0B\u8BD5\u5377..."
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: ...... ......
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: "\u94C3\u94C3\u94C3......"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: "\u4E0B\u8BFE\uFF01"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: 
+  goScene: 

@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level5-Home2023.unity
     guid: 847484b3e60f61c429c119afd82f239c
+  - enabled: 1
+    path: Assets/Scenes/Desktop.unity
+    guid: bf955e9dc5097584db98727203641f13
+  - enabled: 1
+    path: Assets/Scenes/Desktop 1.unity
+    guid: bf3fa5d4533bdc242b98048cf627c545
+  - enabled: 1
+    path: Assets/Scenes/Restart-Level1-Home2023.unity
+    guid: 37299bd5010d9ee4c8b405179af0b772
   m_configObjects: {}

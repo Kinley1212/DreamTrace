@@ -17,11 +17,15 @@ MonoBehaviour:
     myText: "\u4F60\u5728\u8FD9\u554A\uFF01\u5413\u6B7B\u6211\u4EEC\u4E86\uFF01"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: "\u4EE5\u540E\u8981\u8DDF\u7D27\u6211\u4EEC\uFF0C\u4E0D\u8981\u778E\u8DD1\uFF0C\u77E5\u9053\u4E86\u5417\u3002"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: "\u597D\u4E86\u597D\u4E86\uFF0C\u65F6\u95F4\u4E0D\u65E9\u4E86\u6211\u4EEC\uFF0C\u56DE\u5BB6\u5403\u996D\u5427\u3002"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
+  goScene: 

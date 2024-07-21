@@ -127,8 +127,8 @@ MonoBehaviour:
   showObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
-  isRepeat: 0
-  dialogue_Repeat: {fileID: 0}
+  isRepeat: 1
+  dialogue_Repeat: {fileID: 11400000, guid: fc4deee29946164458b7acb6bff8c523, type: 2}
   sceneName: 
 --- !u!1 &5641305483514248636
 GameObject:

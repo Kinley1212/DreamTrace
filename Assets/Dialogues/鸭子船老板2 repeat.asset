@@ -17,3 +17,5 @@ MonoBehaviour:
     myText: "\u7ED9\u4F60\u62FF\u53BB\u4E70\u96F6\u98DF\u5427\uFF01"
     characterEmotion: 0
     portraitSlotIndex: 0
+    objShowName: X
+  goScene: 

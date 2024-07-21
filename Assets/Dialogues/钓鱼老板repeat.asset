@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: "\u9493\u9C7C\u8001\u677Frepeat"
   m_EditorClassIdentifier: 
   dialogueInfo: []
+  goScene: 
   questionText: "\u8981\u4E0D\u8981\u73A9\u4F1A\u513F\u9493\u9C7C\uFF0C\u9493\u5230\u4E94\u6761\u6709\u5956\u52B1\u54E6\u3002"
   optionsInfo:
   - buttonName: "\u597D"

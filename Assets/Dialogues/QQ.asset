@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: QQ
   m_EditorClassIdentifier: 
   dialogueInfo:
-  - character: {fileID: 11400000, guid: f6738ebfc233dd84da3fd7ee2ab5ce05, type: 2}
-    myText: "\u4E3B\u4EBA\u4F60\u597D\u4E45\u6CA1\u6709\u6765\u627E\u6211\u73A9\u4E86..."
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
+    myText: "\u8C22\u8C22\u4E3B\u4EBA\uFF0C\u6211\u597D\u591A\u4E86\u3002"
     characterEmotion: 0
     portraitSlotIndex: 0
     objShowName: "Q\u5BA0\u5403\u836F"
-  - character: {fileID: 11400000, guid: f6738ebfc233dd84da3fd7ee2ab5ce05, type: 2}
-    myText: "\u751F\u75C5\u4E86\u53EF\u771F\u96BE\u53D7\u54CD\uFF0C\u5FEB\u8BA9\u533B\u751F\u7ED9\u6211\u5F00\u5904\u65B9\u5427\uFF01"
-    characterEmotion: 1
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
+    myText: "\u4E3B\u4EBA\u771F\u7684\u8981\u8BA9\u6211\u8D70\u5417\uFF1F\u4F60\u4F1A\u4E0D\u4F1A\u60F3\u6211\u554A\uFF1F"
+    characterEmotion: 0
     portraitSlotIndex: 0
-    objShowName: "Q\u5BA0\u751F\u75C5"
-  - character: {fileID: 11400000, guid: f6738ebfc233dd84da3fd7ee2ab5ce05, type: 2}
-    myText: "\u5F00\u5904\u65B9\u9700\u8981\u652F\u4ED850\u5143\u4E3B\u54E6"
-    characterEmotion: 1
+    objShowName: "Q\u5BA0\u5FAE\u7B11"
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
+    myText: "\u4E3B\u4EBA\uFF0C\u6C38\u8FDC\u62DC\u62DC\u4E86~~"
+    characterEmotion: 0
     portraitSlotIndex: 0
-    objShowName: 
+    objShowName: "Q\u5BA0\u62DB\u624B"
   goScene: 
