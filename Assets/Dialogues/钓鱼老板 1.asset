@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u9493\u9C7C\u8001\u677F 1"
   m_EditorClassIdentifier: 
   dialogueInfo:
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
     myText: "\u9001\u4F60\u4E00\u5F20\u9E2D\u5B50\u8239\u7684\u7968\uFF0C\u53BB\u73A9\u5427\u3002"
     characterEmotion: 0
     portraitSlotIndex: 0

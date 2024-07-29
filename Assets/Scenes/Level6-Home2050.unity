@@ -175,6 +175,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -424,6 +425,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 1
@@ -620,6 +622,7 @@ MonoBehaviour:
       m_Calls: []
   showObj:
   - {fileID: 1228945270}
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 1
@@ -750,6 +753,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 1
@@ -880,6 +884,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -1010,6 +1015,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 1
@@ -1300,6 +1306,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -1696,6 +1703,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -1827,6 +1835,7 @@ MonoBehaviour:
       m_Calls: []
   showObj:
   - {fileID: 1228945270}
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 1
@@ -2571,6 +2580,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -3003,6 +3013,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 147.0198
       objectReference: {fileID: 0}
+    - target: {fileID: 4367357722587677438, guid: c3a150c57a3f68045ac1a8079c380772, type: 3}
+      propertyPath: isLocked
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4436026112246663486, guid: c3a150c57a3f68045ac1a8079c380772, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3389,6 +3403,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 1
@@ -3519,6 +3534,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -4146,6 +4162,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -4442,6 +4459,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj:
+  - {fileID: 0}
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -4486,6 +4505,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -4580,6 +4600,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -4728,6 +4749,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -4751,6 +4773,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0

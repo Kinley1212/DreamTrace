@@ -20,7 +20,19 @@ MonoBehaviour:
     nextDialoge: {fileID: 0}
     myEvent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 2131558764380680325, guid: 8657740d5453b0241adce351a7b3e1f5, type: 3}
+          m_TargetAssemblyTypeName: TriggerBox, Assembly-CSharp
+          m_MethodName: LoadGame2
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - buttonName: "\u5148\u4E0D\u73A9"
     nextDialoge: {fileID: 0}
     myEvent:

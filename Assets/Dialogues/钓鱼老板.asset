@@ -24,15 +24,42 @@ MonoBehaviour:
     portraitSlotIndex: 0
     objShowName: X
   goScene: 
-  questionText: "\u8981\u4E0D\u8981\u73A9\u4F1A\u513F\u9493\u9C7C\uFF0C\u9493\u5230\u4E94\u6761\u6709\u5956\u52B1\u54E6\u3002"
+  dairyPage: 0
+  dairyContentIndex: 0
+  isLocked: 0
+  questionText: "\u8981\u4E0D\u8981\u73A9\u4F1A\u513F\u9493\u9C7C\uFF0C\u9493\u5230\u4E94\u6761\u6211\u9001\u4F60\u4E00\u5F20\u8239\u7968\u54E6\u3002"
   optionsInfo:
   - buttonName: "\u597D"
     nextDialoge: {fileID: 0}
     myEvent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+          m_TargetAssemblyTypeName: TriggerBox, Assembly-CSharp
+          m_MethodName: LoadGame1
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: game-1
+            m_BoolArgument: 0
+          m_CallState: 2
   - buttonName: "\u5148\u4E0D\u73A9"
     nextDialoge: {fileID: 0}
     myEvent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 697ac6b541f409845949e70040e25f3e, type: 2}
+          m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: game-1
+            m_BoolArgument: 0
+          m_CallState: 2

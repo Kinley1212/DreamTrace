@@ -6,6 +6,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
+    AudioSource audioSource;
+    public AudioClip get;
 
     public static UIManager instance;
 
@@ -14,11 +16,16 @@ public class UIManager : MonoBehaviour
     public Image dairyImg;
 
     public string dairyToSceneName;
+
+    public AudioSource BGM;
+    public Toggle BgmToggle;
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);  
         if (instance == null) instance = this;
         else Destroy(gameObject);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -26,6 +33,9 @@ public class UIManager : MonoBehaviour
     {
         dairyOpenPanel.SetActive(true);
         dairyBtn.SetActive(false);
+
+        audioSource.clip = get;
+        audioSource.Play();
     }
 
     public void CloseDairy()
@@ -60,4 +70,21 @@ public class UIManager : MonoBehaviour
             if (btn.isPressed) btn.isPressed = false;
         }
     }
+
+    public void BGMoptions()
+    {
+        if (BgmToggle.isOn)
+        {
+            BGM.Stop();
+        }
+        else
+        {
+            BGM.Play();
+        }
+    }
+
+
+
+
+
 }

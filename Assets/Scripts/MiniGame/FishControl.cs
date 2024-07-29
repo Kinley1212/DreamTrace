@@ -6,7 +6,12 @@ public class FishControl : MonoBehaviour
 {
     public int score = 0;
     public GameObject game;
+    public GameObject fishdestory;
+    public GameObject fishshow;
+    public GameObject boatdestory;
+    public GameObject boatshow;
     public Transform hook;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,9 +42,16 @@ public class FishControl : MonoBehaviour
 
     void GameOver()
     {
+        GameManager.instance.Load("stage8");
         Cursor.visible = true;
+        fishdestory.SetActive(false);
+        fishshow.SetActive(true);
+        boatdestory.SetActive(false);
+        boatshow.SetActive(true);
+
         //
-        game.SetActive(false);  
+        game.SetActive(false);
+
     }
 
 }

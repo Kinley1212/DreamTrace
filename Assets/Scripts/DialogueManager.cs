@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
+    AudioSource audioSource;
+
     public static DialogueManager instance;
     private void Awake()
     {
@@ -19,6 +21,7 @@ public class DialogueManager : MonoBehaviour
         {
             instance = this;
         }
+        audioSource = GetComponent<AudioSource>();
     }
 
     [Header("UI")]
@@ -153,8 +156,11 @@ public class DialogueManager : MonoBehaviour
         {
             yield return new WaitForSeconds(textShowDelay);
             dialogueText.text += c;
+
             if (info.character.myVoice != null)
-                AudioManager.instance.PlayClip(info.character.myVoice);
+                audioSource.clip = info.character.myVoice;
+                audioSource.Play();
+            //AudioManager.instance.PlayClip(info.character.myVoice);
 
             if (CheckPunctuation(c))
             {
@@ -181,6 +187,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public int dairyPage;
+    public int dairyContentIndex;
+    public bool isLocked = false;
+
     public void EndofDialogue()
     {
         dialogueBox.SetActive(false);
@@ -190,6 +200,9 @@ public class DialogueManager : MonoBehaviour
         {
             SceneManager.LoadScene(goScene);
         }
+
+        if (isLocked) return;
+        GameManager.instance.GetDairy(dairyPage, dairyContentIndex);
 
         //¿ªÆôÑ¡Ïî
         if (isDialogueOption != true) return;

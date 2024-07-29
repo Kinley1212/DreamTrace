@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: 
   myAvatar: {fileID: 0}
-  myVoice: {fileID: 0}
+  myVoice: {fileID: 8300000, guid: 8ce04fb795fcfd84b909b93d1127e8e3, type: 3}
   myFontColor: {r: 0, g: 0, b: 0, a: 1}
   myAvatorBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
   myEmotionPortrait:

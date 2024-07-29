@@ -19,3 +19,6 @@ MonoBehaviour:
     portraitSlotIndex: 0
     objShowName: X
   goScene: 
+  dairyPage: 0
+  dairyContentIndex: 0
+  isLocked: 0

@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class FishObj : MonoBehaviour
 {
+    AudioSource audioSource;
+    public AudioClip get;
+
     public Sprite sprOpen;
     public Sprite sprClose;
 
@@ -28,6 +31,8 @@ public class FishObj : MonoBehaviour
         speed = Random.Range(1f, 1.3f);
         range = Random.Range(2f, 4f);
         offset = Random.Range(range, range* 3f);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -38,11 +43,16 @@ public class FishObj : MonoBehaviour
         {
             spriteRenderer.sprite = sprOpen;
             spriteRenderer.sortingOrder = 5;
-      
-           
+
+
             transform.position = hook.position;
             timer -= Time.deltaTime;
-            if(timer <= 0) Destroy(gameObject);
+
+            if (timer <= 0)
+            {
+                Destroy(gameObject);
+            }
+
             return;
         }
 
@@ -77,5 +87,7 @@ public class FishObj : MonoBehaviour
         timer = 1f;
         hook = trans;
         spriteRenderer.DOFade(0f, 1f);
+        audioSource.clip = get;
+        audioSource.Play();
     }
 }

@@ -1091,6 +1091,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -1462,6 +1463,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -2509,6 +2511,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   showObj: []
+  destoryObj: []
   isOnce: 0
   dialogue_1st: {fileID: 0}
   isRepeat: 0
@@ -3207,6 +3210,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3153181107726653567, guid: c3a150c57a3f68045ac1a8079c380772, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4367357722587677438, guid: c3a150c57a3f68045ac1a8079c380772, type: 3}
+      propertyPath: isLocked
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5009391596870709818, guid: c3a150c57a3f68045ac1a8079c380772, type: 3}

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using Unity.VisualScripting;
 
 public class TriggerBox : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class TriggerBox : MonoBehaviour
     public UnityEvent OnTrigger;
 
     [SerializeField] GameObject[] showObj;
+
+    [SerializeField] GameObject[] destoryObj;
 
     [Header("开启首次特殊对话")]
     public bool isOnce = false;
@@ -41,6 +44,10 @@ public class TriggerBox : MonoBehaviour
         
         Debug.Log("ThisClicked:" + stageName);
 
+        if (PauseMenu.isPaused) return;
+        Debug.Log("ThisClicked:" + stageName);
+
+
         //SceneManager.LoadScene(sceneName);
         //SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
         if (stageName != "") GameManager.instance.Load(stageName);
@@ -62,6 +69,19 @@ public class TriggerBox : MonoBehaviour
             }
         }
 
+        if (destoryObj.Length > 0)
+        {
+            foreach (GameObject obj in destoryObj)
+            {
+                if (obj != null)
+                {
+                    Destroy(obj);
+                }
+
+            }
+        }
+
+
         if (isOnce) {
 
             if(dialogue_1st) DialogueManager.instance.EnqueueDialogue(dialogue_1st);
@@ -75,5 +95,16 @@ public class TriggerBox : MonoBehaviour
 
     }
 
-    
+    public void LoadGame1()
+    {
+        GameManager.instance.Load("game1");
+    }
+    public void LoadGame2()
+    {
+        GameManager.instance.Load("game2");
+    }
+ 
+
+
+
 }
