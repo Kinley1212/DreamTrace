@@ -24,6 +24,7 @@ MonoBehaviour:
     portraitSlotIndex: 0
     objShowName: X
   goScene: 
+  isOpenDariyAtEnd: 0
   dairyPage: 0
+  isGetNewPagePart: 0
   dairyContentIndex: 0
-  isLocked: 0

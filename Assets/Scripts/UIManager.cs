@@ -19,6 +19,8 @@ public class UIManager : MonoBehaviour
 
     public AudioSource BGM;
     public Toggle BgmToggle;
+
+    public DairyNextPage[] dairyNextPages;
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);  
@@ -40,6 +42,11 @@ public class UIManager : MonoBehaviour
 
     public void CloseDairy()
     {
+        foreach (DairyNextPage item in dairyNextPages) { 
+        if( item.CheckPageFinished())
+                   return;
+        }
+
         dairyOpenPanel.SetActive(false);
         dairyBtn.SetActive(true);
     }

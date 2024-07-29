@@ -72,7 +72,12 @@ public class DialogueManager : MonoBehaviour
     }
 
 
-    public string goScene;
+     string goScene;
+     bool isOpenDariyAtEnd = false;
+    int dairyPage;
+    bool isGetNewPagePart = false;
+    int dairyContentIndex;
+
     public void EnqueueDialogue(DialogueBase db)
     {
         if (inDialogue) return;
@@ -83,6 +88,12 @@ public class DialogueManager : MonoBehaviour
 
         OptionParser(db);
         goScene = db.goScene;
+
+        isOpenDariyAtEnd = db.isOpenDariyAtEnd;
+        dairyPage = db.dairyPage;
+        isGetNewPagePart = db.isGetNewPagePart; 
+        dairyContentIndex = db.dairyContentIndex; 
+
         foreach (DialogueBase.info info in db.dialogueInfo)
         {
             dialogueInfo.Enqueue(info);
@@ -187,9 +198,6 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public int dairyPage;
-    public int dairyContentIndex;
-    public bool isLocked = false;
 
     public void EndofDialogue()
     {
@@ -201,8 +209,13 @@ public class DialogueManager : MonoBehaviour
             SceneManager.LoadScene(goScene);
         }
 
-        if (isLocked) return;
-        GameManager.instance.GetDairy(dairyPage, dairyContentIndex);
+        if (isOpenDariyAtEnd)
+        {
+            if(isGetNewPagePart) GameManager.instance.GetDairy(dairyPage, dairyContentIndex);
+            else GameManager.instance.GetDairy(dairyPage);
+        }
+           
+
 
         //¿ªÆôÑ¡Ïî
         if (isDialogueOption != true) return;

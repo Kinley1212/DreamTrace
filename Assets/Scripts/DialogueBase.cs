@@ -27,9 +27,11 @@ public class DialogueBase : ScriptableObject
     [Header("Insert Dialogue Information Below")]
     public info[] dialogueInfo;
     public string goScene;
+
+    public bool isOpenDariyAtEnd = false;
     public int dairyPage;
+    public bool isGetNewPagePart = false;
     public int dairyContentIndex;
-    public bool isLocked = false;
 
 
 }

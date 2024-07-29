@@ -16,7 +16,8 @@ public struct stage
 [Serializable]
 public struct Page
 {
-    public Sprite[] spr;
+    public Sprite[] page;           
+    public GameObject[] pagePart;  
 }
 
 public class GameManager : MonoBehaviour
@@ -25,8 +26,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     [SerializeField] stage[] stages;
-    [SerializeField] Page[] dairy;
-    public int index;
+    [SerializeField] Page dairy;
+    public int index = 0;
     public int contentIndex;
 
     private void Awake()
@@ -51,6 +52,28 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public bool GetDairy(int dairyPage)
+    {
+        Debug.Log("index:" + index);
+        Debug.Log("dairyPage:" + dairyPage);
+        index = dairyPage;
+        
+        UIManager.instance.dairyImg.sprite = dairy.page[index];
+
+        if (index != dairyPage)
+        {
+            foreach (GameObject obj in dairy.pagePart)
+            {
+                obj.SetActive(false);
+            }
+        }
+
+        UIManager.instance.OpenDairy();
+
+        //Check Page
+        return true;
+    }
+
 
 
     public bool GetDairy(int dairyPage, int dairyContentIndex)
@@ -58,11 +81,18 @@ public class GameManager : MonoBehaviour
         index = dairyPage;
         contentIndex = dairyContentIndex;
 
-        UIManager.instance.dairyImg.sprite = dairy[index].spr[contentIndex];
+        UIManager.instance.dairyImg.sprite = dairy.page[index];
+        dairy.pagePart[contentIndex].SetActive(true);
 
+        if (index != dairyPage)
+        {
+            foreach (GameObject obj in dairy.pagePart)
+            {
+                obj.SetActive(false);
+            }
+        }
 
         UIManager.instance.OpenDairy();
-
 
         //Check Page
         return true;
