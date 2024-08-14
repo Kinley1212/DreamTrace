@@ -15,11 +15,6 @@ public class LoadGameManager : MonoBehaviour
         SceneManager.LoadScene(7);
     }
 
-    public void RestartLoading()
-    {
-        SceneManager.LoadScene(8);
-    }
-
     public void EndingGame()
     {
         UnityEditor.EditorApplication.isPlaying = false;

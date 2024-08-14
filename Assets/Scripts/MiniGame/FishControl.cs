@@ -11,6 +11,8 @@ public class FishControl : MonoBehaviour
     public GameObject boatdestory;
     public GameObject boatshow;
     public Transform hook;
+    public int dairyPage;
+    public int dairyContentIndex;
 
     // Start is called before the first frame update
     void Start()
@@ -30,13 +32,17 @@ public class FishControl : MonoBehaviour
     }
 
 
-     void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform.CompareTag("Fish")) {
-            Debug.Log(collision.gameObject.name);
-            score++;
-
-            collision.transform.GetComponent<FishObj>().HookUpFish(hook);
+        if (collision.transform.CompareTag("Fish"))
+        {
+            FishObj fishObj = collision.transform.GetComponent<FishObj>();
+            if (fishObj.isOpen)
+            {
+                Debug.Log(collision.gameObject.name);
+                score++;
+                fishObj.HookUpFish(hook);
+            }
         }
     }
 
@@ -48,6 +54,7 @@ public class FishControl : MonoBehaviour
         fishshow.SetActive(true);
         boatdestory.SetActive(false);
         boatshow.SetActive(true);
+        GameManager.instance.GetDairy(dairyPage, dairyContentIndex);
 
         //
         game.SetActive(false);

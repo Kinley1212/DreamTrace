@@ -18,7 +18,16 @@ MonoBehaviour:
     characterEmotion: 0
     portraitSlotIndex: 0
     objShowName: X
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
+    myText: "\u966A\u6211\u73A9\u5427\uFF0C\u4F60\u8D62\u4E86\u6211\u628A\u89E3\u5BC6\u5361\u501F\u4F60\u3002"
+    characterEmotion: 0
+    portraitSlotIndex: 0
+    objShowName: X
   goScene: 
+  isOpenDariyAtEnd: 0
+  dairyPage: 0
+  isGetNewPagePart: 0
+  dairyContentIndex: 0
   questionText: "\u966A\u6211\u73A9\u5427\uFF0C\u4F60\u8D62\u4E86\u6211\u628A\u89E3\u5BC6\u5361\u501F\u4F60\u3002"
   optionsInfo:
   - buttonName: "\u597D"

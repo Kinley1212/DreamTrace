@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        
+
     }
     // Start is called before the first frame udddddddddddddddddddddddddddpdate
     void Start()

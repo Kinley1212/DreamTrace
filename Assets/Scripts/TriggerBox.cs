@@ -47,7 +47,6 @@ public class TriggerBox : MonoBehaviour
         if (PauseMenu.isPaused) return;
         Debug.Log("ThisClicked:" + stageName);
 
-
         //SceneManager.LoadScene(sceneName);
         //SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
         if (stageName != "") GameManager.instance.Load(stageName);

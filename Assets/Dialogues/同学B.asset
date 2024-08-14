@@ -33,4 +33,8 @@ MonoBehaviour:
     characterEmotion: 0
     portraitSlotIndex: 0
     objShowName: X
-  goScene: Level4-Home2000
+  goScene: 
+  isOpenDariyAtEnd: 1
+  dairyPage: 1
+  isGetNewPagePart: 1
+  dairyContentIndex: 5

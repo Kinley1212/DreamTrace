@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
 {
     AudioSource audioSource;
     public AudioClip get;
+    private float lastPlayTime = -1f;
 
     public static UIManager instance;
 
@@ -21,6 +22,7 @@ public class UIManager : MonoBehaviour
     public Toggle BgmToggle;
 
     public DairyNextPage[] dairyNextPages;
+
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);  
@@ -36,8 +38,12 @@ public class UIManager : MonoBehaviour
         dairyOpenPanel.SetActive(true);
         dairyBtn.SetActive(false);
 
-        audioSource.clip = get;
-        audioSource.Play();
+        if (Time.time - lastPlayTime > 1f)
+        {
+            audioSource.clip = get;
+            audioSource.Play();
+        }
+
     }
 
     public void CloseDairy()
@@ -89,9 +95,5 @@ public class UIManager : MonoBehaviour
             BGM.Play();
         }
     }
-
-
-
-
 
 }

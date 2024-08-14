@@ -12,8 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9852a0c4f970fc744913d9ba24f694b9, type: 3}
   m_Name: "\u540C\u5B66A repeat"
   m_EditorClassIdentifier: 
-  dialogueInfo: []
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
+    myText: "\u966A\u6211\u73A9\u5427\uFF0C\u4F60\u8D62\u4E86\u6211\u628A\u89E3\u5BC6\u5361\u501F\u4F60\u3002"
+    characterEmotion: 0
+    portraitSlotIndex: 0
+    objShowName: 
   goScene: 
+  isOpenDariyAtEnd: 0
+  dairyPage: 0
+  isGetNewPagePart: 0
+  dairyContentIndex: 0
   questionText: "\u966A\u6211\u73A9\u5427\uFF0C\u4F60\u8D62\u4E86\u6211\u628A\u89E3\u5BC6\u5361\u501F\u4F60\u3002"
   optionsInfo:
   - buttonName: "\u597D"

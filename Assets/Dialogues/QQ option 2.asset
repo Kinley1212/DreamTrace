@@ -33,7 +33,16 @@ MonoBehaviour:
     characterEmotion: 0
     portraitSlotIndex: 0
     objShowName: "Q\u5BA0\u5927\u54ED"
+  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
+    myText: "\u4E3B\u4EBA\u771F\u7684\u8981\u8BA9\u6211\u8D70\u5417\uFF1F\u4F60\u4F1A\u4E0D\u4F1A\u60F3\u6211\u554A\uFF1F"
+    characterEmotion: 0
+    portraitSlotIndex: 0
+    objShowName: "Q\u5BA0\u5927\u54ED"
   goScene: 
+  isOpenDariyAtEnd: 0
+  dairyPage: 0
+  isGetNewPagePart: 0
+  dairyContentIndex: 0
   questionText: "\u4E3B\u4EBA\u771F\u7684\u8981\u8BA9\u6211\u8D70\u5417\uFF1F\u4F60\u4F1A\u4E0D\u4F1A\u60F3\u6211\u554A\uFF1F"
   optionsInfo:
   - buttonName: "\u4F1A"

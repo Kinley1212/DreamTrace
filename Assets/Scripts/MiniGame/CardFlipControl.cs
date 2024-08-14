@@ -8,6 +8,13 @@ public class CardFlipControl : MonoBehaviour
 {
     [SerializeField] string stageName;
 
+    //public int dairyPage;
+    //public int dairyContentIndex;
+
+    AudioSource audioSource;
+    public AudioClip get;
+
+
     [SerializeField] int roundTotal = 2;
     [SerializeField] GameObject aim;
     [SerializeField] GameObject pointer;
@@ -29,6 +36,13 @@ public class CardFlipControl : MonoBehaviour
     [SerializeField] int score = 0;
     [SerializeField] int round = 0;
 
+    public Sprite newSprite;
+
+    [SerializeField] GameObject[] showObj;
+
+    public GameObject prefabToSpawn; // 将你要生成的GameObject拖拽到这个变量上
+    private Vector3 aimPosition; // 用于存储aim停留的位置
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +51,9 @@ public class CardFlipControl : MonoBehaviour
 
         aim.transform.position = startPos;
         StartCoroutine(MoveAim());
+
+        audioSource = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -63,9 +80,21 @@ public class CardFlipControl : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && isAimDone && !isPointerDone)
         {
+            // 获取aim停留的位置
+            aimPosition = aim.transform.position;
+
+            // 在aim停留的位置实例化一个新的GameObject
+            GameObject newObj = Instantiate(prefabToSpawn, aimPosition, Quaternion.identity);
+
+            Destroy(newObj, 1f);
+
             StopAllCoroutines();
             pointer.transform.DOPause();
             isPointerDone = true;
+
+            audioSource.clip = get;
+            audioSource.Play();
+
             //score
             float distance = Vector3.Distance(pointer.transform.position, startPos);
             if (distance > 4.2f && distance < 5.5f) score++;
@@ -77,7 +106,21 @@ public class CardFlipControl : MonoBehaviour
 
                 if (round >= roundTotal)
                 {
-                    GameManager.instance.Load(stageName);
+                    if (showObj.Length > 0)
+                    {
+                        foreach (GameObject obj in showObj)
+                        {
+                            if (obj != null)
+                            {
+                                obj.SetActive(true);
+                            }
+
+                        }
+                    }
+                    StartCoroutine(DelayedLoad(1f));
+                    aim.GetComponent<SpriteRenderer>().sprite = newSprite;
+
+                    //GameManager.instance.GetDairy(dairyPage, dairyContentIndex);
                     return;
                 }
                 else
@@ -129,4 +172,10 @@ public class CardFlipControl : MonoBehaviour
             yield return new WaitForSeconds(timeSpeed + 0.2f);
         }
     }
+    IEnumerator DelayedLoad(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        GameManager.instance.Load("stage17");
+    }
+
 }

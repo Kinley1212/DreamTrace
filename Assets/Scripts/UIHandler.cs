@@ -1,30 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class UIHandler : MonoBehaviour
+public class UIHandler : MonoBehaviour, IPointerClickHandler
 {
-    // Start is called before the first frame update
-    void Start()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void StartGame()
-    {
-
-        Invoke("StartGameScene" ,2);
-    }
-
-
-    public void StartGameScene()
-    {
-    
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            Debug.Log("点击了UI元素，忽略");
+        }
+        else
+        {
+            Debug.Log("点击了场景物体");
+            // 在这里处理点击场景物体的逻辑
+        }
     }
 }

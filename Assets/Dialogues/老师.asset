@@ -49,3 +49,7 @@ MonoBehaviour:
     portraitSlotIndex: 0
     objShowName: 
   goScene: 
+  isOpenDariyAtEnd: 1
+  dairyPage: 1
+  isGetNewPagePart: 1
+  dairyContentIndex: 3

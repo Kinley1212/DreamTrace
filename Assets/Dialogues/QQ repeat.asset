@@ -19,3 +19,7 @@ MonoBehaviour:
     portraitSlotIndex: 0
     objShowName: "Q\u5BA0\u62DB\u624B"
   goScene: 
+  isOpenDariyAtEnd: 1
+  dairyPage: 2
+  isGetNewPagePart: 1
+  dairyContentIndex: 6
