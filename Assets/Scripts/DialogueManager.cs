@@ -184,6 +184,7 @@ public class DialogueManager : MonoBehaviour
     private void CompleteText()
     {
         dialogueText.text = completeText;
+        audioSource.Stop();
     }
 
     private bool CheckPunctuation(char c)
@@ -203,6 +204,8 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueBox.SetActive(false);
         inDialogue = false;
+
+        audioSource.Stop();
 
         if (goScene != "")
         {
