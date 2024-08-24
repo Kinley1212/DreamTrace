@@ -42,7 +42,7 @@ public class DialogueManager : MonoBehaviour
 
     //对话选项 
     private bool isDialogueOption;
-    public bool inDialogue;
+    public bool inDialogue = false;
     public GameObject dialogueOptionUI;
     public GameObject[] optionButtons;
     private int optionAmount;
@@ -169,8 +169,11 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += c;
 
             if (info.character.myVoice != null)
+            {
                 audioSource.clip = info.character.myVoice;
                 audioSource.Play();
+            }
+              
             //AudioManager.instance.PlayClip(info.character.myVoice);
 
             if (CheckPunctuation(c))
@@ -202,10 +205,13 @@ public class DialogueManager : MonoBehaviour
 
     public void EndofDialogue()
     {
+        StopAllCoroutines();
+        audioSource.Stop();
+
+
         dialogueBox.SetActive(false);
         inDialogue = false;
-
-        audioSource.Stop();
+     
 
         if (goScene != "")
         {

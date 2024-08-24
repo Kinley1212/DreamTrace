@@ -40,21 +40,21 @@ public class TriggerBox : MonoBehaviour
 
     protected void OnMouseDown()
     {
-        if (EventSystem.current.IsPointerOverGameObject())
+        if ( DialogueManager.instance.inDialogue)
         {
             return;
         }
-
-        
-        Debug.Log("ThisClicked:" + stageName);
-
+        if (EventSystem.current.IsPointerOverGameObject() )
+        {
+            return;
+        }
         if (PauseMenu.isPaused) return;
-        Debug.Log("ThisClicked:" + stageName);
+        Debug.Log("ThisClicked:" + gameObject.name);
 
         //SceneManager.LoadScene(sceneName);
         //SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
         if (stageName != "") GameManager.instance.Load(stageName);
-        else if(sceneName != "") SceneManager.LoadScene(sceneName);
+        else if (sceneName != "") SceneManager.LoadScene(sceneName);
 
         if (isOneTimeTrigger) Destroy(gameObject);
 
@@ -85,12 +85,14 @@ public class TriggerBox : MonoBehaviour
         }
 
 
-        if (isOnce) {
+        if (isOnce)
+        {
 
-            if(dialogue_1st) DialogueManager.instance.EnqueueDialogue(dialogue_1st);
+            if (dialogue_1st) DialogueManager.instance.EnqueueDialogue(dialogue_1st);
 
             isOnce = false;
-        }else if (isRepeat)
+        }
+        else if (isRepeat)
         {
             if (dialogue_Repeat) DialogueManager.instance.EnqueueDialogue(dialogue_Repeat);
         }
@@ -106,7 +108,7 @@ public class TriggerBox : MonoBehaviour
     {
         GameManager.instance.Load("game2");
     }
- 
+
 
 
 
