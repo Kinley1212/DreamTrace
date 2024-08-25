@@ -4,9 +4,22 @@ using UnityEngine;
 
 public class DialogueButton : MonoBehaviour
 {
+    bool isEnable = false;
     public void GetNextLine()
     {
-        DialogueManager.instance.DequeueDialogue();
+        if(isEnable) DialogueManager.instance.DequeueDialogue();
+
+    }
+
+    public void OnOpen()
+    {
+        isEnable = false;
+        Invoke("CD", 0.1f);
+    }
+
+    public void CD()
+    {
+        isEnable = true;
     }
 
 }

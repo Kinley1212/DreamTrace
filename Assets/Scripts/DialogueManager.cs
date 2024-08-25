@@ -82,8 +82,9 @@ public class DialogueManager : MonoBehaviour
     {
         if (inDialogue) return;
         inDialogue = true;
-
         dialogueBox.SetActive(true);
+        dialogueBox.GetComponent<DialogueButton>().OnOpen();
+
         dialogueInfo.Clear();
 
         OptionParser(db);
@@ -100,15 +101,11 @@ public class DialogueManager : MonoBehaviour
         }
 
         DequeueDialogue();
+        
     }
-
+   
     public void DequeueDialogue()
     {
-        if (dialogueInfo.Count == 0)
-        {
-            EndofDialogue();
-            return;
-        }
 
         if (isCurrentlyTyping == true)
         {
@@ -117,6 +114,13 @@ public class DialogueManager : MonoBehaviour
             isCurrentlyTyping = false;
             return;
         }
+
+        if (dialogueInfo.Count == 0)
+        {
+            EndofDialogue();
+            return;
+        }
+
 
         DialogueBase.info info = dialogueInfo.Dequeue();
         completeText = info.myText;
@@ -187,7 +191,6 @@ public class DialogueManager : MonoBehaviour
     private void CompleteText()
     {
         dialogueText.text = completeText;
-        audioSource.Stop();
     }
 
     private bool CheckPunctuation(char c)
@@ -205,9 +208,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndofDialogue()
     {
-        StopAllCoroutines();
         audioSource.Stop();
-
 
         dialogueBox.SetActive(false);
         inDialogue = false;
