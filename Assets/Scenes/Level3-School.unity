@@ -162,6 +162,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 121137410}
     m_Modifications:
+    - target: {fileID: 1926422468447904996, guid: 1c55eb3d6098a8c44a1870ec395dc9e1, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3615925240881482446, guid: 1c55eb3d6098a8c44a1870ec395dc9e1, type: 3}
       propertyPath: m_Name
       value: TriggerDIary
@@ -558,6 +562,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[2]
       value: 
       objectReference: {fileID: 130836982}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.3831077
@@ -669,6 +677,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: stageName
       value: stage14(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -825,6 +837,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1390273802}
     m_Modifications:
+    - target: {fileID: 1926422468447904996, guid: 1c55eb3d6098a8c44a1870ec395dc9e1, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3615925240881482446, guid: 1c55eb3d6098a8c44a1870ec395dc9e1, type: 3}
       propertyPath: m_Name
       value: TriggerDIary
@@ -1270,6 +1286,10 @@ PrefabInstance:
     - target: {fileID: 976184572814616455, guid: 3fc9fceb600d1254cbba9bccca08aeee, type: 3}
       propertyPath: m_Name
       value: TriggerBox nextlevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 976184572814616455, guid: 3fc9fceb600d1254cbba9bccca08aeee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1638943032134462105, guid: 3fc9fceb600d1254cbba9bccca08aeee, type: 3}
       propertyPath: sceneName
@@ -3098,6 +3118,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: f5efbe8e6b388cc45aa5327d3517501e, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.1021194
@@ -4101,6 +4125,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[0]
       value: 
       objectReference: {fileID: 735524068}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.0418932
@@ -4171,6 +4199,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9029378249191671243}
     m_Modifications:
+    - target: {fileID: 1926422468447904996, guid: 1c55eb3d6098a8c44a1870ec395dc9e1, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3615925240881482446, guid: 1c55eb3d6098a8c44a1870ec395dc9e1, type: 3}
       propertyPath: m_Name
       value: TriggerDIary (2)
@@ -4293,6 +4325,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: showObj.Array.data[1]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -4593,6 +4629,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[1]
       value: 
       objectReference: {fileID: 3922311}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.9965404
@@ -4895,6 +4935,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.560618
@@ -5032,6 +5076,10 @@ PrefabInstance:
     - target: {fileID: 7348251283655113248, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_Name
       value: TriggerBox (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348251283655113248, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5425,6 +5473,10 @@ PrefabInstance:
       propertyPath: stageName
       value: stage14(2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.9331045
@@ -5664,6 +5716,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9029378249191671243}
     m_Modifications:
+    - target: {fileID: 1926422468447904996, guid: 1c55eb3d6098a8c44a1870ec395dc9e1, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3615925240881482446, guid: 1c55eb3d6098a8c44a1870ec395dc9e1, type: 3}
       propertyPath: m_Name
       value: TriggerDIary
@@ -5762,6 +5818,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9029378249191671243}
     m_Modifications:
+    - target: {fileID: 1926422468447904996, guid: 1c55eb3d6098a8c44a1870ec395dc9e1, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3615925240881482446, guid: 1c55eb3d6098a8c44a1870ec395dc9e1, type: 3}
       propertyPath: m_Name
       value: TriggerDIary (1)

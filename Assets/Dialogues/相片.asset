@@ -10,20 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c885fdf035fdf3043a5c8c07eddff22b, type: 3}
-  m_Name: VR2023
+  m_Name: "\u76F8\u7247"
   m_EditorClassIdentifier: 
   dialogueInfo:
   - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
-    myText: "\u8FD9\u662F..."
+    myText: "\u8FD8\u662F\u4E0D\u80FD\u63A5\u53D7\u6211\u7684\u670B\u53CB\u4EEC\u4E00\u4E2A\u4E00\u4E2A\u79BB\u5F00\u4E86\uFF0C\u54CE\u3002"
     characterEmotion: 0
     portraitSlotIndex: 0
-    objShowName: X
-  - character: {fileID: 11400000, guid: d1ae4b0c573c935408e7555ddf03c0d6, type: 2}
-    myText: "\u554A...\u6211\u60F3\u8D77\u6765\u4E86......"
-    characterEmotion: 0
-    portraitSlotIndex: 0
-    objShowName: X
-  goScene: Level6-Home2050
+    objShowName: 
+  goScene: 
   isOpenDariyAtEnd: 0
   dairyPage: 0
   isGetNewPagePart: 0

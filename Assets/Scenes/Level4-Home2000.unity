@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: stageName
       value: stage25
       objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.6551707
@@ -225,6 +229,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[0]
       value: 
       objectReference: {fileID: 2045519219}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.7214746
@@ -435,6 +443,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: da3548134c0664842864947259e3b7dc, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.8371583
@@ -635,6 +647,10 @@ PrefabInstance:
       propertyPath: isOneTimeTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 7.1947827
@@ -713,6 +729,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[0]
       value: 
       objectReference: {fileID: 1152230564}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.56306964
@@ -871,6 +891,10 @@ PrefabInstance:
       propertyPath: stageName
       value: stage26
       objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.6760168
@@ -944,6 +968,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: stageName
       value: stage21(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -1197,6 +1225,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 408802967}
     - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -1318,6 +1350,10 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_SortingOrder
       value: 21
       objectReference: {fileID: 0}
@@ -1403,6 +1439,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: 5f884043cd627fb4db61d48faa2321d8, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.542541
@@ -1476,6 +1516,10 @@ PrefabInstance:
     - target: {fileID: 976184572814616455, guid: 3fc9fceb600d1254cbba9bccca08aeee, type: 3}
       propertyPath: m_Name
       value: TriggerBox nextlevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 976184572814616455, guid: 3fc9fceb600d1254cbba9bccca08aeee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1638943032134462105, guid: 3fc9fceb600d1254cbba9bccca08aeee, type: 3}
       propertyPath: sceneName
@@ -1634,6 +1678,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: c0c81bfe75661904a8bb0d1eb3d3b022, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.527707
@@ -1842,6 +1890,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: stageName
       value: stage24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -2097,6 +2149,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: da3548134c0664842864947259e3b7dc, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.3610945
@@ -2391,6 +2447,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: b97da611eec472140bed6e718fc982ed, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.1010137
@@ -2626,6 +2686,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1961715971}
     - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -2719,6 +2783,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[0]
       value: 
       objectReference: {fileID: 1881551292}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.2524657
@@ -2912,6 +2980,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_SortingOrder
@@ -3306,7 +3378,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: c4adce857227efd419ab467247b4be69, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.6117647}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3424,6 +3496,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[0]
       value: 
       objectReference: {fileID: 558036912}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.56306964
@@ -3586,6 +3662,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -3888,6 +3968,10 @@ PrefabInstance:
       propertyPath: isOneTimeTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.052247
@@ -3970,6 +4054,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: d4bda4e06dca8b4448fc9489308b678b, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5796733
@@ -4047,6 +4135,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: stageName
       value: stage21(2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -4160,6 +4252,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: stageName
       value: stage22(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -4692,6 +4788,10 @@ PrefabInstance:
       propertyPath: stageName
       value: stage23
       objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.5417702
@@ -4820,6 +4920,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: d4bda4e06dca8b4448fc9489308b678b, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.395547
@@ -5346,6 +5450,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[0]
       value: 
       objectReference: {fileID: 2067094545}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3137838
@@ -5480,6 +5588,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_SortingOrder
@@ -6057,6 +6169,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: d4bda4e06dca8b4448fc9489308b678b, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.765961
@@ -6234,6 +6350,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: showObj.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -6429,6 +6549,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: d4bda4e06dca8b4448fc9489308b678b, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.85131896
@@ -6720,6 +6844,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: a62bdaca46650374bb32fafde49d180f, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.914327
@@ -6929,6 +7057,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: b97da611eec472140bed6e718fc982ed, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.664052
@@ -7011,6 +7143,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: d4bda4e06dca8b4448fc9489308b678b, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.18345
@@ -7165,6 +7301,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: d4bda4e06dca8b4448fc9489308b678b, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.85131896
@@ -7429,6 +7569,10 @@ PrefabInstance:
       propertyPath: stageName
       value: stage27
       objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.2381945
@@ -7607,6 +7751,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[0]
       value: 
       objectReference: {fileID: 199664107}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8207,6 +8355,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: d4bda4e06dca8b4448fc9489308b678b, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1422501
@@ -9030,6 +9182,10 @@ PrefabInstance:
       propertyPath: isOneTimeTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.091041
@@ -9258,6 +9414,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[0]
       value: 
       objectReference: {fileID: 89049093}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.8116271
@@ -9406,6 +9566,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: stageName
       value: stage21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -9592,6 +9756,10 @@ PrefabInstance:
     - target: {fileID: 5790375210566465356, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -10313,6 +10481,10 @@ PrefabInstance:
       propertyPath: dialogue_Repeat
       value: 
       objectReference: {fileID: 11400000, guid: d4bda4e06dca8b4448fc9489308b678b, type: 2}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555604833365018933, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.792761
@@ -10619,6 +10791,10 @@ PrefabInstance:
       propertyPath: showObj.Array.data[1]
       value: 
       objectReference: {fileID: 531312054}
+    - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5808703313844423658, guid: 5e1fcdf6c6e0a8540aefd2ac98e3c4ff, type: 3}
       propertyPath: m_SortingOrder
       value: 5
