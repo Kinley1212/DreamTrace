@@ -39,7 +39,7 @@ Through this narrative, the game warns players not to indulge excessively in nos
 
 ---
 
-## Tools & Software
+## Tools & Technologies
 
 - **Game Engine:** Unity  
 - **Modeling:** SketchUp  
