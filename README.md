@@ -19,15 +19,13 @@ With China’s rapid urban development, dramatic changes in cityscapes and lifes
 
 ## Game Description
 
-**DreamTrace** is a nostalgic, story-driven **first-person point-and-click game**.  
-The purpose of the game is to allow players to return to the happiness of **2008**, make up for childhood regrets, and ultimately realize that dissatisfaction with the present may itself become a beautiful memory in the future.
+**DreamTrace** is a nostalgic, story-driven **first-person point-and-click game**. The purpose of the game is to allow players to return to the happiness of **2008**, make up for childhood regrets, and ultimately realize that dissatisfaction with the present may itself become a beautiful memory in the future.
 
 The story begins in **2023**. The player feels frustrated with life and longs for the past. By accident, they travel back to **2008** through their childhood diary.  
 Following the diary’s memories, the player revisits familiar locations such as **the park, school, and home**, reliving fragments of childhood happiness.
 
 As the story unfolds, the player gradually discovers that **2023 is not the real world**. In fact, they have entered a **virtual reality system in 2050**, where a world war has broken out.  
-The game concludes with a critical choice:  
-**remain in the comforting virtual past, or return to reality and face the present.**
+The game concludes with a critical choice: **remain in the comforting virtual past, or return to reality and face the present.**
 
 Through this narrative, the game warns players not to indulge excessively in nostalgia, while reminding them to cherish the present moment.
 
