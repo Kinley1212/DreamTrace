@@ -10,10 +10,10 @@ With China’s rapid urban development, dramatic changes in cityscapes and lifes
 
 ## My Role
 
-- **Game Design:** Narrative Structure, Interaction Logic
-- **Gameplay Mechanics:** Puzzle Design, Mini Game Design  
-- **Visual Style:** 2D/3D Asset Creation and Modeling  
-- **Partial Code Implementation**
+- **Game Design:** Developed the overall narrative structure, story progression, and core interaction logic  
+- **Gameplay Mechanics:** Designed puzzles and mini-game mechanics to support storytelling and player engagement  
+- **Art Production:** Created and modeled 2D/3D assets to establish a nostalgic visual atmosphere  
+- **Programming Support:** Implemented partial diary system logic, user interaction logic, and basic game functionalities (background music, scene transitions, and sound effects, etc.)
 
 ---
 
