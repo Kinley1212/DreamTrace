@@ -4,18 +4,17 @@ This project is a **2D point-and-click narrative game** developed between **Apri
 
 The game is inspired by *Chinese Dreamcore*, a nostalgic aesthetic and emotional trend emerging among young people in China.
 
-With China’s rapid urban development, dramatic changes in cityscapes and lifestyles have created a strong sense of separation between past and present. As a result, nostalgia for the early 2000s—particularly around **2008**—has spread widely on the internet. This project responds to that cultural phenomenon by using interactive storytelling to revisit childhood memories while encouraging players to reflect on the present.
+With China’s rapid urban development, dramatic changes in cityscapes and lifestyles have created a strong sense of separation between past and present. As a result, nostalgia for the early 2000s—particularly around 2008 — has spread widely on the internet. This project responds to that cultural phenomenon by using interactive storytelling to revisit childhood memories while encouraging players to reflect on the present.
 
 ---
 
 ## My Role
 
-- Game Design  
-- Gameplay & Puzzle Design  
-- 2D/3D Asset Creation & Modeling  
+- Game Design: Narrative Structure, Interaction Logic
+- Gameplay Mechanics: Puzzle Design, Mini Game Design  
+- Visual Style: 2D/3D Asset Creation and Modeling  
 - Partial Code Implementation  
 
-I was responsible for shaping the core gameplay mechanics, narrative structure, visual style, and interaction logic.
 ---
 
 ## Game Description
